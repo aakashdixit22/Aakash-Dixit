@@ -8,7 +8,7 @@ import afterEffects from '../assets/svg/skills/after-effects.svg'
 import css from '../assets/svg/skills/css.svg'
 import angular from '../assets/svg/skills/angular.svg'
 import javascript from '../assets/svg/skills/javascript.svg'
-import nextJS from '../assets/svg/skills/nextJS.svg'
+import nextJS from '../assets/svg/skills/nextjs-2.svg'
 import nuxtJS from '../assets/svg/skills/nuxtJS.svg'
 import react from '../assets/svg/skills/react.svg'
 import svelte from '../assets/svg/skills/svelte.svg'
@@ -23,7 +23,7 @@ import mongoDB from '../assets/svg/skills/mongoDB.svg'
 import mysql from '../assets/svg/skills/mysql.svg'
 import postgresql from '../assets/svg/skills/postgresql.svg'
 import tailwind from '../assets/svg/skills/tailwind.svg'
-import vitejs from '../assets/svg/skills/vitejs.svg'
+import vite from '../assets/svg/skills/vite.svg'
 import vuetifyjs from '../assets/svg/skills/vuetifyjs.svg'
 import c from '../assets/svg/skills/c.svg'
 import cplusplus from '../assets/svg/skills/cplusplus.svg'
@@ -77,9 +77,10 @@ import acertinityui from '../assets/svg/skills/acertinity.svg'
 import canva from '../assets/svg/skills/canva.svg'
 import flask from '../assets/svg/skills/flask.svg'
 import shadcnui from '../assets/svg/skills/shadcnui.svg'
-import gemini from '../assets/svg/skills/gemini.svg'
-import groq from '../assets/svg/skills/groq.svg'
+import gemini from '../assets/svg/skills/gemini2.svg'
+import groq from '../assets/svg/skills/groq-2.svg'
 import express from '../assets/svg/skills/express.svg'
+
 
 
 export const skillsImage = (skill) => {
@@ -135,8 +136,7 @@ export const skillsImage = (skill) => {
             return postgresql;
         case 'tailwind':
             return tailwind;
-        case 'vitejs':
-            return vitejs;
+        
         case 'vuetifyjs':
             return vuetifyjs;
         case 'c':
@@ -247,6 +247,8 @@ export const skillsImage = (skill) => {
             return groq;
         case 'express':
             return express;
+        case "vite":
+            return vite;
         default:
             break;
     }

@@ -17,6 +17,7 @@
     "Gemini",
     "Groq",
     "Express",
+    "Vite",
     
 
 
