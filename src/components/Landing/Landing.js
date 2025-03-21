@@ -364,7 +364,7 @@ function Landing() {
                                 options={{
                                     strings: [
                                         'Full Stack Web Developer',
-                                        'AI/ML Enthusiast',
+                                        'AI Enthusiast',
                                         'Freelancer'
                                     ],
                                     autoStart: true,

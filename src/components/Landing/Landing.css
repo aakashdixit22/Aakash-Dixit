@@ -197,6 +197,11 @@
     font-size: 1rem;
     text-align: center;
   }
+  .lcr--content h3 {
+    order: -1; /* Moves the typewriter text above the name */
+    font-size: 1.2rem; /* Adjusts size for smaller screens */
+    text-align: center;
+}
   .lcr--content h1 {
     font-size: 2.5rem;
     text-align: center;

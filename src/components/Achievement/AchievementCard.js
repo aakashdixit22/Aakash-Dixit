@@ -34,7 +34,7 @@ function AchievementCard({id, title, details, date, field, image}) {
                         <h5>{date}</h5>
                         <div className="achievecard-field">
                             <AiOutlineFolder />
-                            <h5>{field}</h5>
+                            <a href={field}><h5 style={{color: theme.primary}}>Certificate</h5></a>
                         </div>   
                     </div>
                 </div> 
