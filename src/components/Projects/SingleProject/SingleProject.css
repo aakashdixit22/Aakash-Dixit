@@ -1,4 +1,4 @@
-.singleProject {
+/* .singleProject {
     box-shadow: 4px 4px 8px rgba(36, 3, 3, 0.2);
     width: 304px;
     height: 360px;
@@ -105,4 +105,131 @@
     font-weight: 500;
     word-break: break-word; 
     line-height: 100%;
+} */
+
+
+
+/* src/components/Projects/SingleProject.css */
+
+.project-card {
+    width: 480px;
+    height: 450px;
+    background: #F56539;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+.project-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 3px solid #4c4c6d;
+}
+
+.project-content {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100% - 180px);
+}
+
+.project-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.project-desc {
+    font-size: 0.9rem;
+    color: #d1d1e0;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.project-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 1rem;
+}
+
+.icon {
+    font-size: 1.5rem;
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+.icon:hover {
+    color: #00df9a;
+}
+
+.project-tags {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tag {
+    background-color: #4c4c6d;
+    color: #d1d1e0;
+    padding: 0.3rem 0.6rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+/* Projects Container Grid Layout */
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 2rem;
+    justify-items: center;
+    
+    background-color: #212121;
+}
+.projects-section {
+    background-color: #212121;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensures full height */
+    width: 100%;
+}
+/* Heading Styling */
+.projects-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #F56539;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+/* Optional: Smooth Fade-In Animation */
+.projects-title {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInTitle 0.8s forwards ease-in-out;
+}
+
+@keyframes fadeInTitle {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
