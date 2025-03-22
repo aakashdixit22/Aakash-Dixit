@@ -9,7 +9,7 @@ import { FaUser, FaFolderOpen } from 'react-icons/fa';
 import { makeStyles } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
 import CloseIcon from '@material-ui/icons/Close';
-
+import Projects from '../Projects/Projects';
 import './Navbar.css';
 import { headerData } from '../../data/headerData';
 import { ThemeContext } from '../../contexts/ThemeContext';
@@ -235,6 +235,23 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
+                                to='/#projects'
+                                smooth={true}
+                                spy='true'
+                                duration={2000}
+                            >
+                                <div className={classes.drawerItem}>
+                                    <FaFolderOpen className={classes.drawerIcon} />
+                                    <span className={classes.drawerLinks}>
+                                        Projects
+                                    </span>
+                                </div>
+                            </NavLink>
+                        </Fade>
+
+
+                        <Fade left>
+                            <NavLink
                                 to='/#contacts'
                                 smooth={true}
                                 spy='true'
@@ -248,6 +265,10 @@ function Navbar() {
                                 </div>
                             </NavLink>
                         </Fade>
+
+
+
+                        
                     </div>
                 </div>
             </Drawer>

@@ -8,7 +8,7 @@ export const educationData = [
     },
     {
         id: 2,
-        institution: 'Guru Teg Bahadur Institute Of Technology',
+        institution: 'Guru Tegh Bahadur Institute Of Technology',
         course: 'Bachelor of Technology',
         startYear: '2022',
         endYear: '2026'
