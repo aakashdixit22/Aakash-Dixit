@@ -8,20 +8,21 @@ import six from '../assets/svg/projects/six.svg'
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Employee Management',
-        projectDesc: 'This project aims to build an employee management system that consolidates all information of a company',
-        tags: ['React', 'CSS', 'Material Ui'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        projectName: 'TALX-AI POWERED JOB PORTAL',
+        projectDesc: 'Talx is an innovative web application designed to streamline job searching, posting, and career guidance. It serves as a powerful platform for job posters, applicants, and individuals seeking career insights. With a modern, responsive design and AI-driven functionalities, Talx offers an enhanced user experience tailored for today job market.',   
+
+        tags: ['React','TaiwlindCSS','Nodejs','Express','MongoDB','GeminiAPI','Shadcn-UI','framer-motion','mongoose','newsapi','multer','nodemailer','google-sheets-api','AcertinityUI'],
+        code: 'https://github.com/aakashdixit22/talx-frontend',
+        demo: 'https://talx.vercel.app/',
         image: one
     },
     {
         id: 2,
-        projectName: 'Railway Tracking',
-        projectDesc: 'This project is a railway tracking system that allows users to obtain relevant information about train timing.',
-        tags: ['Django', 'Tailwind CSS'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        projectName: 'SCRIBEAI',
+        projectDesc: 'ScribeAI is an AI-powered web app built with Next.js that simplifies note-taking from PDFs. Users can upload PDFs, ask questions about the content, and let the AI generate accurate notes. With a rich text editor, seamless PDF management, and robust security, ScribeAI is perfect for students, professionals, and researchers.',
+        tags: ['Next.js', 'Tailwind CSS', 'Shadcn-UI', 'ConvexDB','GeminiAPI','Reactjs','Langchain','Gemini-flash',''],
+        code: 'https://github.com/aakashdixit22/scribeai',
+        demo: 'https://scribeai-lake.vercel.app/',
         image: two
     },
     {

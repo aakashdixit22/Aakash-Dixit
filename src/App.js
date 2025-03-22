@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-d
 
 import { ThemeContext } from './contexts/ThemeContext';
 import { Main, BlogPage,  } from './pages'
-import { BackToTop ,Projects} from './components'
+import { BackToTop } from './components'
 
 import ScrollToTop from './utils/ScrollToTop'
 
@@ -24,7 +24,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Main} />
           <Route path="/blog" exact component={BlogPage} />
-          <Route path="/projects" exact component={Projects} />
+          
           
 
           <Redirect to="/" />
