@@ -23,9 +23,10 @@
 }
 
 .achievement-body h4 {
-    font-size: 1.40rem;
-    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 1.5rem;
+    font-family: 'Poopins', sans-serif;
     font-weight: 400;
+    color:#EAEAEACC;
 }
 
 .achievement-cards {
@@ -234,5 +235,20 @@
         height: 60px;
     }
 
+}
+
+
+@media screen and (max-width: 600px) {
+    .achievement-body h4 {
+        font-size: 1.25rem; /* Updated from 1.5rem */
+    }
+
+    .achievecard-details1 p {
+        font-size: 0.95rem;
+    }
+    .achievecard-imgcontainer > img {
+        width: 70px;
+        height: 60px;
+    }
 }
 

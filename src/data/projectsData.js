@@ -20,7 +20,7 @@ export const projectsData = [
         id: 2,
         projectName: 'SCRIBEAI',
         projectDesc: 'ScribeAI is an AI-powered web app built with Next.js that simplifies note-taking from PDFs. Users can upload PDFs, ask questions about the content, and let the AI generate accurate notes. With a rich text editor, seamless PDF management, and robust security, ScribeAI is perfect for students, professionals, and researchers.',
-        tags: ['Next.js', 'Tailwind CSS', 'Shadcn-UI', 'ConvexDB','GeminiAPI','Reactjs','Langchain','Gemini-flash',''],
+        tags: ['Next.js', 'Tailwind CSS', 'Shadcn-UI', 'ConvexDB','GeminiAPI','Reactjs','Langchain','Gemini-flash'],
         code: 'https://github.com/aakashdixit22/scribeai',
         demo: 'https://scribeai-lake.vercel.app/',
         image: two
@@ -28,7 +28,7 @@ export const projectsData = [
     {
         id: 3,
         projectName: 'Weather App',
-        projectDesc: 'Weather forecast systems and applications predict weather conditions based on multiple parameters.',
+        projectDesc: 'Weather forecast systems  weather conditions based on multiple parameters.',
         tags: ['Django', 'CSS', 'Material Ui'],
         code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
         demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
