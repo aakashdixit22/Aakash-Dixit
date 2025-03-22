@@ -27,11 +27,11 @@ export const projectsData = [
     },
     {
         id: 3,
-        projectName: 'Weather App',
-        projectDesc: 'Weather forecast systems  weather conditions based on multiple parameters.',
-        tags: ['Django', 'CSS', 'Material Ui'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        projectName: 'FINANSMART',
+        projectDesc: 'AI Expense Tracker is a full-stack web app built with Next.js, Tailwind CSS, Shadcn UI, and PostgreSQL to track expenses, income, and budgets seamlessly. It helps users set monthly budgets, monitor savings goals, and manage recurring expenses while providing smart reminders. Powered by Google Generative AI and Gemini API, it analyzes spending patterns to offer personalized financial advice on saving, investing, and budgeting smarter. With intuitive design and AI-driven insights, it empowers users to make better financial decisions and achieve stability.',
+        tags: ['Next.js', 'Tailwind CSS', 'Shadcn-UI', 'PostgreSQL', 'GeminiAPI', 'lucide-react','neondb','drizzle-orm'],
+        code: 'https://github.com/aakashdixit22/finansmart',
+        demo: 'https://finansmart-ai.vercel.app/',
         image: three
     },
     {
