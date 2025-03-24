@@ -23,7 +23,7 @@ function Main() {
       
             <Achievement />
             <Contacts />
-            <Footer />
+            
         </div>
     )
 }
