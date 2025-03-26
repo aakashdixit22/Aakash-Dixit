@@ -37,7 +37,7 @@ export const projectsData = [
     {
         id: 4,
         projectName: 'CONZEN-CHAT APP',
-        projectDesc: 'This real-time chat app lets users send messages, share images, PDFs, and documents, and react with emojis. Messages can be edited or deleted for flexibility. Offline users receive notifications to stay updated. It supports online/offline status indicators and typing notifications for a lively chat experience. A clean, user-friendly interface keeps conversations smooth and engaging. Future enhancements include group chats, read receipts, and push notifications.',
+        projectDesc: 'This real-time chat app lets users send messages, share images, PDFs, and documents, and react with emojis. Messages can be edited or deleted for flexibility. Offline users receive notifications to stay updated. It supports  typing notifications for a lively chat experience. A clean, user-friendly interface keeps conversations smooth and engaging. Future enhancements include group chats, read receipts, and push notifications.',
         tags: ['reactjs', 'css','javascript','socketio','twilio','nodejs','express','vercel','streamchat-api','twilio-api'],
         code: 'https://github.com/aakashdixit22/chat-frontend',
         demo: 'https://chat-frontend-mu-flax.vercel.app/',
