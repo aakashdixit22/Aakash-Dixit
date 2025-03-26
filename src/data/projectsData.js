@@ -36,31 +36,13 @@ export const projectsData = [
     },
     {
         id: 4,
-        projectName: 'Android Patient Tracker',
-        projectDesc: 'This project involves the development of an Android application for viewing and managing patient data.',
-        tags: ['Flutter', 'Firebase'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        projectName: 'CONZEN-CHAT APP',
+        projectDesc: 'This real-time chat app lets users send messages, share images, PDFs, and documents, and react with emojis. Messages can be edited or deleted for flexibility. Offline users receive notifications to stay updated. It supports online/offline status indicators and typing notifications for a lively chat experience. A clean, user-friendly interface keeps conversations smooth and engaging. Future enhancements include group chats, read receipts, and push notifications.',
+        tags: ['reactjs', 'css','javascript','socketio','twilio','nodejs','express','vercel','streamchat-api','twilio-api'],
+        code: 'https://github.com/aakashdixit22/chat-frontend',
+        demo: 'https://chat-frontend-mu-flax.vercel.app/',
         image: four
-    },
-    {
-        id: 5,
-        projectName: 'E-Commerce App',
-        projectDesc: 'A Simple E-commerce application',
-        tags: ['React Native', 'Firebase'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: five
-    },
-    {
-        id: 6,
-        projectName: 'Uber Lite',
-        projectDesc: 'Uber clone',
-        tags: ['Flutter'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: six
-    },
+    }
  
 ]
 
