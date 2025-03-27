@@ -1,9 +1,8 @@
-import one from '../assets/svg/projects/one.svg'
-import two from '../assets/svg/projects/two.svg'
-import three from '../assets/svg/projects/three.svg'
-import four from '../assets/svg/projects/four.svg'
-import five from '../assets/svg/projects/five.svg'
-import six from '../assets/svg/projects/six.svg'
+import one from '../assets/svg/projects/talx.png'
+import two from '../assets/svg/projects/scribe.png'
+import three from '../assets/svg/projects/image.png'
+import four from '../assets/svg/projects/connzen.png'
+
 
 export const projectsData = [
     {
@@ -36,8 +35,8 @@ export const projectsData = [
     },
     {
         id: 4,
-        projectName: 'CONZEN-CHAT APP',
-        projectDesc: 'This real-time chat app lets users send messages, share images, PDFs, and documents, and react with emojis. Messages can be edited or deleted for flexibility. Offline users receive notifications to stay updated. It supports  typing notifications for a lively chat experience. A clean, user-friendly interface keeps conversations smooth and engaging. Future enhancements include group chats, read receipts, and push notifications.',
+        projectName: 'CONNZEN-CHAT APP',
+        projectDesc: 'This real-time chat app lets users send messages, share images, PDFs, and documents, and react with emojis. Messages can be edited or deleted for flexibility. Offline users receive notifications to stay updated. It supports typing notifications for a lively chat experience. A clean, user-friendly interface keeps conversations smooth and engaging. Future enhancements include group chats, read receipts, and push notifications.',
         tags: ['reactjs', 'css','javascript','socketio','twilio','nodejs','express','vercel','streamchat-api','twilio-api'],
         code: 'https://github.com/aakashdixit22/chat-frontend',
         demo: 'https://chat-frontend-mu-flax.vercel.app/',
