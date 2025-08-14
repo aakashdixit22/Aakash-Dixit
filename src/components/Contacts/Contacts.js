@@ -160,7 +160,14 @@ function Contacts() {
 				style={{ 
 					background: theme.secondary,
 					boxShadow: `0 20px 40px ${theme.primary}10`,
-					border: `2px solid ${theme.primary}10`
+					border: `2px solid ${theme.primary}10`,
+					padding: '24px 20px',
+					'@media (min-width: 768px)': {
+						padding: '32px 28px'
+					},
+					'@media (min-width: 1024px)': {
+						padding: '48px 40px'
+					}
 				}}
 			>
 				<h2 style={{ 
