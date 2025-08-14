@@ -2,9 +2,13 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
     position: relative;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 .code-container {
@@ -46,58 +50,63 @@
 .contacts--container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
-    padding: 2rem 6rem 3rem;
-    width: 80%;
-    height: 100%;
-    margin-top: 2rem;
+    padding: 2rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
 .contacts--container > h1 {
     font-family: var(--primaryFont);
-    font-size: 3.5rem;
+    font-size: clamp(2rem, 5vw, 3.5rem);
     margin-bottom: 2.5rem;
-
+    width: 100%;
+    text-align: center;
 }
 
 .contacts-body {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
+    gap: 2rem;
 }
 
 .contacts-form {
     display: flex;
-    flex: 0.4;
     width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .contacts-form form {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-evenly;
+    align-items: center;
     width: 100%;
+    gap: 1.5rem;
 }
 
 .input-container {
     width: 100%;
+    max-width: 500px;
 }
-
 
 .form-input {
     height: 50px;
     box-sizing: border-box;
-    border-radius: 50px; 
+    border-radius: 12px;
     outline: none;
-    margin-bottom: 2rem;
-    padding: 0.7rem 0.7rem;
-    border-radius: 20px;
+    margin-bottom: 1rem;
+    padding: 1rem 1.2rem;
     width: 100%; 
     resize: none;
+    font-size: 16px;
+    transition: all 0.3s ease;
 }
 
 
@@ -232,79 +241,98 @@
 }
 
 @media screen and (max-width: 800px) {
-    .contacts--container h1 {
-        font-size: 3rem;
-        margin-bottom: 30px;
+    .contacts {
+        padding: 1rem 0;
     }
     .contacts--container {
-        padding: 2rem;
-        margin-top: 0rem;
-        align-items: center;
+        padding: 1rem;
+    }
+    .contacts--container h1 {
+        font-size: clamp(1.8rem, 7vw, 2.5rem);
+        margin-bottom: 1.5rem;
     }
     .contacts-body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        gap: 2rem;
     }
     .contacts-form {
-        display: flex;
-        flex: 1;
-        width: 80%;
+        width: 90%;
     }
-    
     .form-input {
-        margin-bottom: 0.45rem;
+        margin-bottom: 0.5rem;
+        font-size: 16px;
     }
     .contacts-form form {
-        align-items: flex-end;
+        gap: 1rem;
     }
     .contacts-details {
-        padding-left: 0rem;
-        padding: 1rem;
+        padding: 0;
+        width: 90%;
         align-items: center;
-        margin-top: 2rem;
+        text-align: center;
     }
     .socialmedia-icons {
         width: 100%;
-        gap: 1.5rem;
-        margin-top: 2rem;
+        gap: 1rem;
+        margin-top: 1.5rem;
+        justify-content: center;
     }
     .personal-details {
-        margin-bottom: 1.8rem;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1.5rem;
+        text-align: center;
     }
     .personal-details p {
-        margin-left: 1.2rem;
-        width: 95%;
+        margin: 0.5rem 0;
+        width: 100%;
+        text-align: center;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .contacts-form {
-        display: flex;
-        flex: 1;
-        width: 100%;
+    .contacts--container {
+        padding: 1rem 0.5rem;
     }
     .contacts--container h1 {
-        font-size: 2.5rem;
-        margin-bottom: 20px;
+        font-size: clamp(1.5rem, 6vw, 2rem);
+        margin-bottom: 1rem;
+    }
+    .contacts-form {
+        width: 95%;
+    }
+    .form-input, .form-message {
+        padding: 0.8rem 1rem;
+    }
+    .submit-btn {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .submit-btn button {
+        width: 100%;
+        max-width: 200px;
     }
 }
 
 @media screen and (max-width: 400px) {
-    .contacts-details {
-        padding-left: 0rem;
-        padding: 0rem;
-        align-items: center;
-        margin-top: 2rem;
+    .contacts {
+        padding: 0.5rem 0;
     }
-    .submit-btn{align-self: center;}
-}
-  
-@media only screen and (min-device-width: 320px) and (max-device-width: 
-  480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
-    .contacts-details {
-        padding-left: 0rem;
-        padding: 0rem;
+    .contacts--container {
+        padding: 0.5rem;
+    }
+    .contacts-form {
+        width: 100%;
+    }
+    .form-input, .form-message {
+        padding: 0.7rem 0.9rem;
+        font-size: 15px;
+    }
+    .submit-btn button {
+        height: 45px;
+    }
+    .socialmedia-icons {
+        gap: 0.75rem;
     }
 }
 
