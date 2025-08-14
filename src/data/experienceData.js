@@ -4,7 +4,7 @@ export const experienceData = [
         company: 'IBM SkillsBuild',
         jobtitle: 'Live Project Intern',
         startYear: 'July 2025',
-        endYear: 'Present',
+        endYear: 'August 2025',
         description: [
             'Completed an intensive 4-week internship focused on Front-End Web Development, combining hands-on learning with real-world challenges.',
             'Participated in live sessions with industry experts and mentors, understanding best practices in web design and coding standards.',
@@ -16,7 +16,7 @@ export const experienceData = [
         company: 'Innovate Cloud Solutions',
         jobtitle: 'Full Stack Developer Intern',
         startYear: 'June 2025',
-        endYear: 'Present',
+        endYear: 'August 2025',
         description: [
             'Contributed to real-world frontend and backend projects using modern web technologies in a performance-based internship.',
             'Gained hands-on experience in developing user-centric applications and collaborating with a professional development team.',

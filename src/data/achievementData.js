@@ -4,27 +4,21 @@ export const achievementData = {
     achievements : [
         {
             id : 1,
-            title : 'Google Cloud certification',
-            details : 'Google Cloud certifications validate your expertise and showcase your ability to transform businesses with Google Cloud technology.',
-            date : 'Aug 20, 2019',
-            field : '',
-            image : 'https://images.unsplash.com/photo-1573141597928-403fcee0e056?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80'
+            title : 'Web Development Bootcamp',
+            details : 'Mastered the fundamentals of web development, including HTML, CSS, and JavaScript, through an intensive bootcamp program.',
+            image : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-T8ZFs6bnEPLbMyhoa1gYBJqTzJ9Q1lJgZw&s'
         },
         {
             id : 2,
-            title : 'AWS Certification',
-            details : 'Validate technical skills and cloud expertise to grow your career and business.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
+            title : '100 Days of code Python Development',
+            details : 'Completed Udemy’s 100 Days of Code: The Complete Python Pro Bootcamp, building 100 real-world projects covering Python programming, automation, web development (Flask, APIs)',
+            image : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-T8ZFs6bnEPLbMyhoa1gYBJqTzJ9Q1lJgZw&s'
         },
         {
             id : 3,
-            title : 'Professional Data Engineer Certification',
-            details : 'Professional Data Engineers enable data-driven decision making by collecting, transforming, and publishing data.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1489389944381-3471b5b30f04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
+            title : 'Oracle Generative AI Certification',
+            details : 'rned the Oracle Cloud Infrastructure Generative AI Professional certification — mastered Large Language Model fundamentals (LLMs),deployed a Retrieval-Augmented Generation (RAG) chatbot using LangChain and OCI’s vector search capabilities',
+            image : 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8jZkQocNBejdBvx5s68iPlW__CCB-0OcwccsybskTxULQQ8R5s5hAKivVI459ymy5Y8w_RdXHemgAePYZQxfNgzSLnLAAY4_hFZlGLiqPIqkQynH2qOe7_x-Lw8xPNGBWnzUulzUEhxlxmLY9IdKcIM77WoiAUrJE2L3M5E2hgyCJUYUz1L01/s16000-rw/oci-genai.jpeg'
         }
 
     ]
