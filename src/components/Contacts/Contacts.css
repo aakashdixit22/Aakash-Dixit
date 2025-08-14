@@ -7,6 +7,33 @@
     position: relative;
 }
 
+.code-container {
+    animation: slideUp 20s linear infinite;
+}
+
+.cursor {
+    animation: blink 1s ease infinite;
+}
+
+.particles circle {
+    animation: float 2s ease-in-out infinite alternate;
+}
+
+@keyframes slideUp {
+    from { transform: translateY(100px); }
+    to { transform: translateY(-320px); }
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+@keyframes float {
+    from { transform: translateY(0); }
+    to { transform: translateY(-10px); }
+}
+
 
 .contacts--img {
     position: absolute;

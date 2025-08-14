@@ -1,16 +1,14 @@
-import one from '../assets/svg/projects/talx.png'
-import two from '../assets/svg/projects/scribe.png'
-import three from '../assets/svg/projects/image.png'
-import four from '../assets/svg/projects/connzen.png'
-
+import one from '../assets/svg/projects/talx.png';
+import two from '../assets/svg/projects/scribe.png';
+import three from '../assets/svg/projects/image.png';
+import four from '../assets/svg/projects/connzen.png';
 
 export const projectsData = [
     {
         id: 1,
         projectName: 'TALX-AI POWERED JOB PORTAL',
-        projectDesc: 'Talx is an innovative web application designed to streamline job searching, posting, and career guidance. It serves as a powerful platform for job posters, applicants, and individuals seeking career insights. With a modern, responsive design and AI-driven functionalities, Talx offers an enhanced user experience tailored for today job market.',   
-
-        tags: ['React','TaiwlindCSS','Nodejs','Express','MongoDB','GeminiAPI','Shadcn-UI','framer-motion','mongoose','newsapi','multer','nodemailer','google-sheets-api','AcertinityUI'],
+        projectDesc: 'Talx is a comprehensive job portal featuring job posting and management, resume submissions, applicant tracking, AI-driven resume analysis, and a dynamic news feed delivering real-time updates across technology, business, and other domains. Includes an AI-powered Chat Assistant for platform guidance and career support.',
+        tags: ['Reactjs', 'TailwindCSS', 'Nodejs', 'Expressjs', 'MongoDB', 'llama', 'Gemini'],
         code: 'https://github.com/aakashdixit22/talx-frontend',
         demo: 'https://talx.vercel.app/',
         image: one
@@ -18,8 +16,8 @@ export const projectsData = [
     {
         id: 2,
         projectName: 'SCRIBEAI',
-        projectDesc: 'ScribeAI is an AI-powered web app built with Next.js that simplifies note-taking from PDFs. Users can upload PDFs, ask questions about the content, and let the AI generate accurate notes. With a rich text editor, seamless PDF management, and robust security, ScribeAI is perfect for students, professionals, and researchers.',
-        tags: ['Next.js', 'Tailwind CSS', 'Shadcn-UI', 'ConvexDB','GeminiAPI','Reactjs','Langchain','Gemini-flash'],
+        projectDesc: 'ScribeAI is an AI-powered web app built with Next.js that simplifies note-taking from PDFs. Users can upload PDFs, ask questions about the content, and let the AI generate accurate notes with a rich text editor. Features contextual search powered by Google’s Text Embedding 004 and Gemini Flash.',
+        tags: ['Nextjs', 'TailwindCSS', 'AcertinityUI', 'ConvexDB', 'Gemini', 'LangChain'],
         code: 'https://github.com/aakashdixit22/scribeai',
         demo: 'https://scribeai-lake.vercel.app/',
         image: two
@@ -27,8 +25,8 @@ export const projectsData = [
     {
         id: 3,
         projectName: 'FINANSMART',
-        projectDesc: 'AI Expense Tracker is a full-stack web app built with Next.js, Tailwind CSS, Shadcn UI, and PostgreSQL to track expenses, income, and budgets seamlessly. It helps users set monthly budgets, monitor savings goals, and manage recurring expenses while providing smart reminders. Powered by Google Generative AI and Gemini API, it analyzes spending patterns to offer personalized financial advice on saving, investing, and budgeting smarter. With intuitive design and AI-driven insights, it empowers users to make better financial decisions and achieve stability.',
-        tags: ['Next.js', 'Tailwind CSS', 'Shadcn-UI', 'PostgreSQL', 'GeminiAPI', 'lucide-react','neondb','drizzle-orm'],
+        projectDesc: 'FinanSmart is an AI-powered full-stack web application enabling users to efficiently track expenses, manage incomes, and set customizable budgets with real-time updates and an intuitive, responsive user interface. Integrates Google Generative AI and Gemini API for personalized financial advice.',
+        tags: ['Nextjs', 'PostgreSQL', 'ShadcnUI', 'Gemini', 'NeonDB'],
         code: 'https://github.com/aakashdixit22/finansmart',
         demo: 'https://finansmart-ai.vercel.app/',
         image: three
@@ -36,27 +34,10 @@ export const projectsData = [
     {
         id: 4,
         projectName: 'CONNZEN-CHAT APP',
-        projectDesc: 'This real-time chat app lets users send messages, share images, PDFs, and documents, and react with emojis. Messages can be edited or deleted for flexibility. Offline users receive notifications to stay updated. It supports typing notifications for a lively chat experience. A clean, user-friendly interface keeps conversations smooth and engaging. Future enhancements include group chats, read receipts, and push notifications.',
-        tags: ['reactjs', 'css','javascript','socketio','twilio','nodejs','express','vercel','streamchat-api','twilio-api'],
+        projectDesc: 'ConnZen is a real-time chat application with instant messaging, file sharing, emoji reactions, and offline SMS notifications using React.js, Node.js, Socket.IO, and Twilio API. Features message editing, deletion, and live updates across all devices.',
+        tags: ['Reactjs', 'Javascript', 'Nodejs', 'Expressjs', 'Socket.io'],
         code: 'https://github.com/aakashdixit22/chat-frontend',
         demo: 'https://chat-frontend-mu-flax.vercel.app/',
         image: four
     }
- 
-]
-
-
-// Do not remove any fields.
-// Leave it blank instead as shown below
-
-/* 
-{
-    id: 1,
-    projectName: 'Car Pooling System',
-    projectDesc: '',
-    tags: ['Flutter', 'React'],
-    code: '',
-    demo: '',
-    image: ''
-}, 
-*/
+];

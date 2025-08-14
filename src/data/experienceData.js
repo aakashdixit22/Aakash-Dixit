@@ -1,23 +1,26 @@
 export const experienceData = [
     {
         id: 1,
-        company: 'Globex Corporation',
-        jobtitle: 'Frontend Developer',
-        startYear: '2018',
-        endYear: '2019'
+        company: 'IBM SkillsBuild',
+        jobtitle: 'Live Project Intern',
+        startYear: 'July 2025',
+        endYear: 'Present',
+        description: [
+            'Completed an intensive 4-week internship focused on Front-End Web Development, combining hands-on learning with real-world challenges.',
+            'Participated in live sessions with industry experts and mentors, understanding best practices in web design and coding standards.',
+            'Collaborated on individual and team-based projects to implement responsive and user-friendly interfaces.'
+        ]
     },
     {
         id: 2,
-        company: 'Vehement Capital Partners',
-        jobtitle: 'Backend Developer',
-        startYear: '2019',
-        endYear: '2020'
-    },
-    {
-        id: 3,
-        company: 'Wonka Industries',
-        jobtitle: 'Marketing',
-        startYear: '2020',
-        endYear: 'Present'
-    },
+        company: 'Innovate Cloud Solutions',
+        jobtitle: 'Full Stack Developer Intern',
+        startYear: 'June 2025',
+        endYear: 'Present',
+        description: [
+            'Contributed to real-world frontend and backend projects using modern web technologies in a performance-based internship.',
+            'Gained hands-on experience in developing user-centric applications and collaborating with a professional development team.',
+            'Delivered code to production-level standards, with performance-based evaluation and mentorship from senior developers.'
+        ]
+    }
 ]

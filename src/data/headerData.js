@@ -3,7 +3,7 @@ import resume from '../assets/pdf/resume.pdf'
 export const headerData = {
     name: 'Aakash Dixit',
     title: "Web Developer",
-    desciption:"There wasn't a bird in the sky, but that was not what caught her attention. It was the clouds. The deep green that isn't the color of clouds, but came with these. She knew what was coming and she hoped she was prepared. ",
+    desciption:"I am a passionate web developer with a keen interest in creating dynamic and responsive web applications. I love to explore new technologies and continuously improve my skills.",
     image: '/aakash.jpg',
-    resumePdf: resume
+    resumePdf: "/Aakash_Dixit_Resume_fin.pdf",
 }
